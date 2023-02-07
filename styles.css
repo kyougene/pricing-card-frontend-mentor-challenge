@@ -1,0 +1,103 @@
+html {
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+h2, h4, p {
+  margin: 0;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.content-container {
+  border: 1px solid black;
+  border-radius: 30px;
+  overflow: hidden;
+  width: 700px;
+  height: 400px;
+}
+.top-content {
+  width: 100%;
+  height: 45%;
+  background-color: white;
+  text-align: left;
+  padding: 20px;
+}
+.top-content h2 {
+  color: #5264EB;
+}
+
+.top-content h3 {
+  color: navy;
+}
+.top-content .library {
+  color: grey;
+}
+
+.bottom-content {
+  display: flex;
+  width: 100%;
+  height: 55%;
+  color: white;
+}
+
+.left-content {
+  background-color: #5264EB;
+  width: 50%;
+  padding: 20px;
+}
+
+.left-content p {
+  margin-top: 10px;
+}
+
+.right-content {
+  background-color: #68ABEB;
+  width: 50%;
+  padding: 20px;
+}
+
+.price-content {
+  display: flex;
+}
+
+.price {
+  font-size: 2.0rem;
+  display: flex;
+  align-items: end;
+}
+
+.price-frequency {
+  color: white;
+  opacity: .8;
+  margin-left: 5px;
+  display: flex;
+  align-items: end;
+}
+
+ul {
+  color: white;
+  list-style: none;
+  padding: 0px;
+  font-size: .8rem;
+  opacity: .8;
+  line-height: 1.3;
+}
+
+#signup {
+  color: white;
+  background-color: navy;
+  border: none;
+  border-radius: 5px;
+  width: 100%;
+  padding: 10px;
+  margin-top: 20px;
+}
+
+#signup:hover {
+  cursor: pointer;
+  background-color: transparent;
+  border: 1px solid navy;
+}
